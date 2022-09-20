@@ -8,3 +8,4 @@ lua require('plugin-config.nvim-tree')
 
 lua require("keybindings")
 
+lua require("plugin-config.bufferline")
