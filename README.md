@@ -1,7 +1,7 @@
 # My-neovim-settings
 
 ## File structure
-```
+```bash
 ├── README.md
 ├── init.vim
 ├── lua
@@ -23,4 +23,21 @@ Most plugins' install command was writing in plugins.lua.
 Basic and plugins keybinding was writing in keybinding.lua.
 
 ## Theme 
+
+## Plugin 
+
+Almost plugin just need lua scripts to setup
+
+### telescope
+a few plugins like telescope need to install some extra lib
+#### requirement
+```bash
+sudo apt install ripgrep
+sudo apt install fd-find
+```
+#### plugins
+This plugin can let telescope view current env very easy
+```vimrc
+telescope-env.nvim
+```
 
