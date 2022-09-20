@@ -19,6 +19,15 @@ return require('packer').startup(function()
   -- lualine
   use({ "nvim-lualine/lualine.nvim", requires = { "kyazdani42/nvim-web-devicons" } })
   use("arkav/lualine-lsp-progress")
+-- telescope
+  use { 'nvim-telescope/telescope.nvim', requires = { "nvim-lua/plenary.nvim" } }
+  -- install without yarn or npm
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function() vim.fn["mkdp#util#install"]() end,
+  })
+
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 
 end)
 -- themes
