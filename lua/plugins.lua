@@ -31,7 +31,9 @@ return require('packer').startup(function()
   })
 
   use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
-
+  --
+  -- dashboard-nvim (新增)
+  use("glepnir/dashboard-nvim")
 end)
 -- themes
 
