@@ -4,8 +4,9 @@ return require('packer').startup(function()
 
     -------------------------- plugins -------------------------------------------
 
+  -- theme
   use("folke/tokyonight.nvim")
--- gruvbox
+  -- gruvbox
   use({ "ellisonleao/gruvbox.nvim", requires = { "rktjmp/lush.nvim" } })
   -- nord
   use("shaunsingh/nord.nvim")
@@ -21,6 +22,8 @@ return require('packer').startup(function()
   use("arkav/lualine-lsp-progress")
 -- telescope
   use { 'nvim-telescope/telescope.nvim', requires = { "nvim-lua/plenary.nvim" } }
+  -- telescope extensions
+  use "LinArcX/telescope-env.nvim"
   -- install without yarn or npm
   use({
     "iamcco/markdown-preview.nvim",
