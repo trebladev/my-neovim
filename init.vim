@@ -1,0 +1,10 @@
+lua require('basic')
+
+lua require('plugins')
+
+lua require('colorscheme')
+
+lua require('plugin-config.nvim-tree')
+
+lua require("keybindings")
+
