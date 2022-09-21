@@ -35,6 +35,9 @@ a few plugins like telescope need to install some extra lib
 sudo apt install ripgrep
 sudo apt install fd-find
 ```
+If OS is deepin which cannot install ripgrep and fd-find by apt directly,it can 
+install by .deb, link is [ripgrep](https://github.com/BurntSushi/ripgrep) and 
+[fd-find](https://github.com/sharkdp/fd).
 #### plugins
 This plugin can let telescope view current env very easy
 ```vimrc
