@@ -20,4 +20,4 @@ lua require("plugin-config.project")
 lua require("plugin-config.nvim-treesitter")
 
 lua require("lsp.setup")
-
+lua require("lsp.cmp")
