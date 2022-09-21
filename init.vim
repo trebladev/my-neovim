@@ -16,3 +16,5 @@ lua require("plugin-config.telescope")
 
 lua require("plugin-config.dashboard")
 lua require("plugin-config.project")
+
+lua  require("plugin-config.nvim-treesitter")

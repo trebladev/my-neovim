@@ -36,7 +36,10 @@ return require('packer').startup(function()
   use("glepnir/dashboard-nvim")
   -- project
   use("ahmedkhalf/project.nvim")
-end)
+
+  --------------------------------code--------------------------------
+  -- treesitter （新增）
+  use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }) end)
 -- themes
 
 
