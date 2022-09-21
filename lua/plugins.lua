@@ -39,9 +39,13 @@ return require('packer').startup(function()
 
   --------------------------------code--------------------------------
   -- treesitter （新增）
-  use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }) end)
+  use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+      --------------------- LSP --------------------
+  use("williamboman/nvim-lsp-installer")
+  -- Lspconfig
+  use({ "neovim/nvim-lspconfig" })
 -- themes
-
+end)
 
 
 
