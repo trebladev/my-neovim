@@ -15,3 +15,4 @@ lua require("plugin-config.lualine")
 lua require("plugin-config.telescope")
 
 lua require("plugin-config.dashboard")
+lua require("plugin-config.project")

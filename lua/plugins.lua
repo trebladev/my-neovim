@@ -34,6 +34,8 @@ return require('packer').startup(function()
   --
   -- dashboard-nvim (新增)
   use("glepnir/dashboard-nvim")
+  -- project
+  use("ahmedkhalf/project.nvim")
 end)
 -- themes
 
