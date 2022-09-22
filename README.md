@@ -24,6 +24,13 @@ Basic and plugins keybinding was writing in keybinding.lua.
 
 ## Theme 
 
+## Font
+In order to get bueatiful icon in cli, I install a serials fonts called NerdFonts
+
+we can get the Fonts by [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
+
+Due to big file, it mety failed when git clone, so download zip is a better option.
+
 ## Plugin 
 
 Almost plugin just need lua scripts to setup
@@ -43,4 +50,5 @@ This plugin can let telescope view current env very easy
 ```vimrc
 telescope-env.nvim
 ```
+
 
