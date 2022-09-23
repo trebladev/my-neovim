@@ -7,6 +7,9 @@ local lsp_installer = require("nvim-lsp-installer")
 local servers = {
   sumneko_lua = require("lsp.config.lua"), -- lua/lsp/config/lua.lua
   clangd = require("lsp.config.clangd"),
+  --pyright = require("lsp.config.pyright")
+  jedi_language_server = require("lsp.config.jedi"),
+  marksman = require("lsp.config.marksman")
 }
 -- 自动安装 Language Servers
 for name, _ in pairs(servers) do

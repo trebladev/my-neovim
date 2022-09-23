@@ -51,4 +51,25 @@ This plugin can let telescope view current env very easy
 telescope-env.nvim
 ```
 
+### LSP
+
+#### jedi-language-sever
+jedi-language-sever need python3-venv
+
+In Ubuntu, just run 
+```bash
+sudo apt install python3-venv
+```
+In deepin, need run
+```bash
+sudo apt install python-pip-whl
+sudo apt install python3-venv
+```
+Then install jedi by pip
+```bash
+pip3 insall jedi
+```
+
+
+
 
