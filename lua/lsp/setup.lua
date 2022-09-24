@@ -9,7 +9,8 @@ local servers = {
   clangd = require("lsp.config.clangd"),
   --pyright = require("lsp.config.pyright")
   jedi_language_server = require("lsp.config.jedi"),
-  marksman = require("lsp.config.marksman")
+  marksman = require("lsp.config.marksman"),
+  bashls = require("lsp.config.bash")
 }
 -- 自动安装 Language Servers
 for name, _ in pairs(servers) do
