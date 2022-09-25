@@ -10,7 +10,8 @@ local servers = {
   --pyright = require("lsp.config.pyright")
   jedi_language_server = require("lsp.config.jedi"),
   marksman = require("lsp.config.marksman"),
-  bashls = require("lsp.config.bash")
+  bashls = require("lsp.config.bash"),
+  cmake = require("lsp.config.cmake")
 }
 -- 自动安装 Language Servers
 for name, _ in pairs(servers) do
