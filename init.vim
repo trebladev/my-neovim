@@ -22,3 +22,6 @@ lua require("plugin-config.nvim-treesitter")
 lua require("lsp.setup")
 lua require("lsp.cmp")
 lua require("lsp.ui")
+
+set clipboard+=unnamedplus
+
