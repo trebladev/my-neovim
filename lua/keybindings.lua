@@ -24,7 +24,7 @@ map("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
 -- ESC 映射到 jj
-map("i", "jk", "<Esc>", opt)
+map("i", "jj", "<Esc>", opt)
 
 -- Telescope
 -- 查找文件
@@ -116,7 +116,7 @@ pluginKeys.cmp = function(cmp)
         -- 上一个
         ["<C-k>"] = cmp.mapping.select_prev_item(),
         -- 下一个
-        ["<C-j>"] = cmp.mapping.select_next_item(),
+        ["<Tab>"] = cmp.mapping.select_next_item(),
         -- 确认
         ["<CR>"] = cmp.mapping.confirm({
             select = true,
