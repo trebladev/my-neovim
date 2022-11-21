@@ -22,6 +22,12 @@ Most plugins' install command was writing in plugins.lua.
 
 Basic and plugins keybinding was writing in keybinding.lua.
 
+## clipboard
+
+```bash
+sudo apt install xclip
+```
+
 ## Theme 
 
 ## Font
