@@ -73,7 +73,7 @@ sudo apt install python3-venv
 ```
 Then install jedi by pip
 ```bash
-pip3 insall jedi
+pip3 install jedi
 ```
 
 
